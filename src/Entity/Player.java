@@ -156,6 +156,10 @@ public class Player extends Entity {
                      break;
 
                case "boots":
+                   speed += 3;
+                     gp.obj[i] = null;
+                        System.out.printf("You have picked up boots, your speed is now %d\n", speed);
+                        break;
 
 
            }
