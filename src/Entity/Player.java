@@ -155,6 +155,8 @@ public class Player extends Entity {
                     }
                      break;
 
+               case "boots":
+
 
            }
         }
